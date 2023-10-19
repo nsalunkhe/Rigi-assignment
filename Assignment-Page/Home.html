@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <!-- Navbar begins -->
+        <div class="Navbar">
+            <div class="logo">
+              <a href="#">Logo</a>
+            </div>
+
+            <div class="menu">
+                <a href="#">Join Community</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="hamburger">&#9776;</div>
+            </div>
+
+        </div>
+
+       <!-- Navbar ends -->
+        <!-- section2 begins -->
+        <div class="section2">
+                <div class="sec2">
+                         <div class="sub-sec-1">
+                           <h1>Hack your wealth journey<br> inside 1% club</h1>
+                            <p>A super premium annual subscription that will transform<br> your wealth planning and make you say- <br> "Bro!I'm financially sorted!"</p>
+                           <button class="d1">Join the community</button>
+                        </div>
+                         <div class="sub-sec-2">
+                             <img src="/images/p-1.png" alt="">
+                             <button class="d2">Join the community</button>
+                        </div>
+        
+                 </div>
+        
+        </div>
+
+        <!-- section 2 ends -->
+
+        <!-- section3 begins -->
+        
+          <p class="feature">Featured in</p>
+        
+           <div class="section3">  
+               <h1 class="forbes">Forbes</h1>
+               <h1 class="tec">THE Economic TIMES</h1>
+               <h1 class="mint">mint</h1>
+               <h1 class="toi">THE TIMES OF INDIA</h1>
+         </div>
+
+           <!-- section 3ends -->
+
+           <!-- section4 begins -->
+
+           <p class="about">About me</p>
+           <div class="section4">
+                <h1>Entrepreneur,content creater,Finance Influencer</h1>
+           </div>
+
+          <!-- section4 ends -->
+
+          <!-- section 5 begins -->
+          <div class="section5">
+            <img src="./images/p2.png" alt="image">
+          </div>
+
+          <!-- section 5 ends  -->
+
+          <!-- section 6 begins -->
+
+          <div class="section6">
+            <p>Hi,I'm Finance With Sharan. I'm a former management consultant at KPMG and PwC where I worked with banks and NBFC's to help them make a ton of money.</p>
+            <p>I now work as a full-time content creater and help the common man to make ton of money.</p>
+            <p>I create engaging personal finance content with a blend of comedic flavor and cosplay on instagram and YouTube.I also write down highly action oriented posts on LinkedIn and Twitter for those who are not on social media platforms and prefer to read it instead.</p>
+          </div>
+
+          <!-- section 6 ends -->
+
+          <!-- section7 begins -->
+
+          <div class="section7">
+            <a href="#" class="social-button"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="social-button"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social-button"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="social-button"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="social-button"><i class="fa fa-youtube-play"></i></a>
+        </div>
+
+        <!-- section 7 ends -->
+
+        <!-- section 8 befins -->
+
+        <p class="services">Services</p>
+        <h1 class="journey"> Start your journey towerds financial freedom</h1>
+        
+        <div class="section8">
+            <button>Community</button>
+            <button>Courses</button>
+            <button>Consultation</button>
+        </div>
+        
+        <!-- section 8 ends -->
+        
+        <!-- section 9 begins -->
+
+        <div class="section9">
+             <div class="one">
+                <h1>
+                    The 1% Club
+                </h1>
+                <p>
+                    Now.I'm on a mission to help you to get to the RICHEST 1%-one educational finance at a time.
+                </p>
+                <ul class="circular-list">
+                    <li>
+                        <input type="checkbox" checked disabled id="checkbox1">
+                        <label for="checkbox1"></label>
+                        <span>Exclusive 1 on 1 interaction with the creator</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked disabled id="checkbox2">
+                        <label for="checkbox2"></label>
+                        <span>Connect with like minded folks,from diverse backgrounds & cities</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked disabled id="checkbox3">
+                        <label for="checkbox3"></label>
+                        <span>32+ Hours of Investing Tutorials,Tools & Community</span>
+                    </li>
+                </ul>
+
+                 <button class="community">Join the community</button>
+                
+             </div>
+             <div class="two">
+                  <img src="./images/p3.png" alt="image">
+             </div>
+        </div>
+        <div class="section8">
+            <button>Community</button>
+            <button>Courses</button>
+            <button>Consultation</button>
+        </div>
+         <!-- section 9 ends  -->
+
+         <!-- section 10 begins -->
+
+         <div class="card-container" id="cardsContainer">
+        </div>
+       
+        <div class="section8">
+            <button>Community</button>
+            <button>Courses</button>
+            <button>Consultation</button>
+        </div>
+
+        <!-- section 10 ends -->
+
+        <!-- section 11 begins -->
+        <div class="card-container2" id="cardsContainer2"></div>
+
+        
+        <!-- section 11ends -->
+
+        <!-- section 12 begins -->
+
+        <p class="testimonial">Testimonials</p>
+        <h1 class="com">What community members are saying about us ?</h1>
+
+
+        <div class="card-container3" id="cardsContainer3"></div>
+
+        <!-- section 12 ends  -->
+
+        <!-- section 13 begins -->
+        <p class="testimonial">Media section</p>
+        <h1 class="com">Check out the intro video of the community</h1>
+        <div class="container">
+            <div class="video-container">
+                <video id="customVideo" width="640" height="360" controls>
+                    <source src="/video/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <button id="playButton" class="play-button">&#9654;</button>
+                <button id="stopButton" class="stop-button">&#9724;</button>
+            </div>
+        </div>
+        
+
+        <!-- section 13 ends -->
+
+        <!-- section 14 begins -->
+
+        <div class="section14">
+            <p class="sec14">Get the app in one click!</p>
+            <h1>Hack your wealth journey inside<br>the 1% club</h1>
+            <div class="button-container">
+                <button class="sec14btn">Join the community</button>
+            </div>
+            <div class="image-container">
+                <img src="/images/p7.png" alt="image">
+            </div>
+            <div class="btn2container">
+                <button class="sec14btn2">Join the community</button>
+            </div>
+        </div>
+
+        <!-- section 14 ends -->
+
+        <!-- section 15 begins -->
+
+        <div class="main-div">
+            <section class="section">
+                <div class="icon">
+                    <i class="fa fa-envelope symbol"></i>
+                </div>
+                <div class="text">
+                    <p>Email us</p>
+                    <p class="cli">Support@gmail.com</p>
+                </div>
+            </section>
+            <section class="section">
+                <div class="icon">
+                    <i class="fa fa-whatsapp symbol"></i>
+                </div>
+                <div class="text">
+                    <p>We are available on Whatsapp</p>
+                    <p class="cli">Click to Whatsapp</p>
+                </div>
+            </section>
+            <section class="section">
+                <div class="icon">
+                    <i class="fa fa-mobile symbol"></i>
+                </div>
+                <div class="text">
+                    <p>Call for sales & Support</p>
+                    <p class="cli">+91-8460068722</p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- section 15 ends  -->
+
+        <!-- section 16 begins -->
+        <div class="section16">
+            <h1>Logo</h1>
+
+            <div class="section7">
+                <a href="#" class="social-button"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="social-button"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="social-button"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="social-button"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="social-button"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            
+            <div class="last">
+                <img src="/images/gpay.png" alt="">
+                <img src="/images/apple.png" alt="">
+            </div>
+            <div class="terms">
+                <div class="t1">
+             <p>© 2023 companyname. inc.</p>
+            </div>
+            <div class="t2">
+             <p>Privacy Policy</p>
+             <p>Terms of services</p>
+            </div>
+            </div>
+        </div>
+        
+        <!-- section16 ends -->
+       
+    <script src="Home.js"></script>
+</body>
+</html>
